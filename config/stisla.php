@@ -776,9 +776,9 @@ return [
 
     'users' => [
         [
-            'name'              => 'Hairul Anam',
-            'email'             => 'superadmin@laraveltemplate.com',
-            'password'          => 'superadmin',
+            'name'              => 'super admin',
+            'email'             => 'superadmin@test.com',
+            'password'          => 'boynempz12',
             'roles'             => ['superadmin', 'admin'],
             'email_verified_at' => '2021-04-06 04:06:00',
             'is_locked'         => 1,
@@ -788,7 +788,7 @@ return [
         ],
         [
             'name'              => 'Admin',
-            'email'             => 'admin@laraveltemplate.com',
+            'email'             => 'admin@test.com',
             'password'          => 'admin',
             'roles'             => ['admin'],
             'email_verified_at' => '2021-04-06 04:06:00',
@@ -798,7 +798,7 @@ return [
         ],
         [
             'name'              => 'User',
-            'email'             => 'user@laraveltemplate.com',
+            'email'             => 'user@test.com',
             'password'          => 'user',
             'roles'             => ['user'],
             'email_verified_at' => '2021-04-06 04:06:00',

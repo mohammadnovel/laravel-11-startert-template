@@ -19,6 +19,8 @@ class DatabaseSeeder extends Seeder
         $this->call(MenuSeeder::class);
         $this->call(NotificationSeeder::class);
         $this->call(CrudExampleSeeder::class);
+        $this->call(KategoriLombaSeeder::class);
+        $this->call(LombaSeeder::class);
         // \App\Models\User::factory(10)->create();
 
         // \App\Models\User::factory()->create([
